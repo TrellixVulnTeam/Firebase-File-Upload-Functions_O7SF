@@ -79,7 +79,7 @@ exports.uploadFile = functions.https.onRequest((req, res) => {
                 })
                 .then(() => {
                     res.status(200).json({
-                        message: 'It Worked!'
+                        message: "It worked!?!"
                     });
                 })
                 .catch(err => {
